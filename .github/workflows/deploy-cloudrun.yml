@@ -9,7 +9,7 @@ env:
   PROJECT_ID: golden-medium-429903-v2 # Your GCP Project ID
   GCP_REGION: asia-southeast1 # Your GCP Region
   SERVICE_NAME: twodemo-service # Name of your Cloud Run service
-  NODE_PROJECT_PATH: twodemo # The folder name of your Node.js project
+  NODE_PROJECT_PATH: nodetwodemo # The folder name of your Node.js project
 
 jobs:
   deploy:
