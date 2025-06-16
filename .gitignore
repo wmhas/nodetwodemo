@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-store/
+.npm/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Dependency directories
+coverage/
+.nyc_output/
+
+# Editor/IDE files
+.vscode/        # VS Code specific files
+.idea/          # IntelliJ IDEA specific files
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+
+# Environment variables
+.env            # Local environment variables
+.env.local      # Local environment variables
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Google Cloud specific
+# IMPORTANT: Never commit your service account keys!
+# Adjust the filename if it's different (e.g., 'your-project-key.json')
+*.json          # Be careful if you have other JSON files you DO want to commit
+service-account-key.json
+firebase-adminsdk-*.json
+firebase-credentials.json
+
+
+# Docker
+# The Dockerfile itself should generally be committed,
+# but temporary Docker-related files should not.
+.dockerignore   # This file itself should typically be committed
+!.dockerignore  # (Uncomment the line above if you want to explicitly include .dockerignore)
+# .dockerignore should be committed, but this is a common pattern to include it if it was accidentally excluded.
+# So, usually you just need '!.dockerignore' if you are trying to ensure it's not ignored by a broader rule like *.
+
+# OS generated files
+.DS_Store       # macOS folder metadata
+Thumbs.db       # Windows thumbnail cache
+ehthumbs.db
+Desktop.ini
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Other
+.history/       # VS Code Local History extension
