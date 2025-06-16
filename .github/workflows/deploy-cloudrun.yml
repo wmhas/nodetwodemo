@@ -8,7 +8,7 @@ on:
 env:
   PROJECT_ID: golden-medium-429903-v2 # Your GCP Project ID
   GCP_REGION: asia-southeast1 # Your GCP Region
-  SERVICE_NAME: twodemo-service # Suggesting a new service name reflecting your repo name
+  SERVICE_NAME: twodemo-service # Suggesting a new service name reflecting your repo name .
   # NODE_PROJECT_PATH: twodemo # Removed or commented out, as project is at root
 
 jobs:
